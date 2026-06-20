@@ -157,5 +157,6 @@ def 執行更新(GitHub資料夾):
         )
 
 if __name__ == "__main__":
+    檢查更新()
     app = 主應用程式()
     app.mainloop()
