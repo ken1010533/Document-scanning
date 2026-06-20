@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# 使用者本機設定與掃描狀態
+config.json
+last_paths.json
+last_scan_result.json
+
+# 掃描或匯出的 Excel 產物
+*.xlsx

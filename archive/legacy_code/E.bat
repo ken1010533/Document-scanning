@@ -1,0 +1,1 @@
+pip install openpyxl Pillow send2trash
