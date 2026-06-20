@@ -2,7 +2,7 @@
 
 實際的主視窗與頁面邏輯放在 UI/main_window.py。
 保留這個薄入口，之後啟動方式仍可使用：
-
+aaaaaa
     python UI.py
 """
 
