@@ -35,3 +35,9 @@ python UI.py
 ```powershell
 pip install openpyxl Pillow send2trash
 ```
+
+若要在右側預覽區直接播放影片，另外安裝：
+
+```powershell
+pip install opencv-python
+```
