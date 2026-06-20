@@ -13,7 +13,7 @@ from pathlib import Path
 from tkinter import messagebox
 
 PROJECT_DIR = Path(__file__).resolve().parent
-
+    
 def run(cmd):
     return subprocess.run(
         cmd,
