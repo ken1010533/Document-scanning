@@ -3,7 +3,15 @@
 ## 現役程式
 
 - `UI.py`：應用程式啟動入口。
-- `UI/main_window.py`：主視窗、路徑管理、掃描結果、預覽、刪除與匯出流程。
+- `UI/main_window.py`：主視窗入口與主頁面狀態組裝。
+- `UI/main_window_layout.py`：主頁面版面與預覽區元件配置。
+- `UI/main_window_paths.py`：掃描路徑新增、刪除、瀏覽與本機記憶。
+- `UI/main_window_scan_results.py`：掃描啟停、背景掃描、結果儲存與結果列表插入。
+- `UI/main_window_tree.py`：Treeview 勾選、保留項目與批次選取行為。
+- `UI/main_window_preview.py`：圖片、文字、影片與外部開啟預覽流程。
+- `UI/main_window_delete.py`：勾選檔案移到回收桶與刪除後 UI 同步。
+- `UI/main_window_export.py`：Excel 匯出與輸出路徑產生。
+- `UI/main_window_helpers.py`：檔案類型、大小、摘要與列表清理等共用工具。
 - `UI/settings.py`：設定頁，負責讀寫 `config.json`。
 - `UI/file_types.py`：副檔名分類，供預覽與檔案類型判斷使用。
 - `UI/window_utils.py`：視窗工具，目前負責主視窗置中。
